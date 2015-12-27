@@ -1,0 +1,21 @@
+{
+	"name": "hypejunction/ui_icons_files",
+	"type": "elgg-plugin",
+	"description": "SVG file type icons",
+	"homepage": "http://hypejunction.com",
+	"keywords": [
+		"elgg", "plugin", "ui", "icons", "file types"
+	],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Ismayil Khayredinov",
+			"email": "info@hypejunction.com"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"hypejunction/ui_icons": "~1.0"
+	}
+}
+
