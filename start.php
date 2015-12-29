@@ -39,7 +39,7 @@ function ui_icons_files_set_icon_url($hook, $type, $return, $params) {
 		$mimetype = 'application/otcet-stream';
 	}
 
-	if (!in_array($size, array('topbar', 'tiny')) && 0 === strpos($mimetype, 'image/') && $entity->icontime && $return) {
+	if (0 === strpos($mimetype, 'image/') && $entity->icontime && $return) {
 		return $return;
 	}
 
