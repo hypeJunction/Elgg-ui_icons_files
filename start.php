@@ -30,7 +30,7 @@ function ui_icons_files_set_icon_url($hook, $type, $return, $params) {
 	$entity = elgg_extract('entity', $params);
 	$size = elgg_extract('size', $params);
 
-	if (!$entity instanceof \ElggFile) {
+	if (!$entity instanceof \ElggFile || $entity->getSubtype() != 'file') {
 		return;
 	}
 
